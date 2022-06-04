@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GamingStore</title>
+    <link rel="stylesheet" href="./estilos.css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@400;500;700&family=Raleway&display=swap" rel="stylesheet">
+    <script src="JavaScript/Principal.js"></script>
+    <script src="JavaScript/reloj.js"></script>
+</head>
+<body onload="carrusel()">
+    <header class="header contenedor">
+        <div class="logotipo">
+            <a href="./index.html"><img src="./imagen/logo_ref.jpg" alt="logotipo" class="logo"></a> 
+        </div>
+        <div class="buscador">
+            <div class="barra-buscador">
+                <img src="./imagen/lupa.png" alt="lupa" class="lupa">
+                <p>Buscar Productos</p>
+            </div>
+        </div>
+        <div class="iconos-header">
+            <div class="icono">
+                <img src="./imagen/usuario.png" alt="usuario" class="icon">
+            </div>
+            <div class="icono">
+                <img src="./imagen/carrito.png" alt="carrito" class="icon">
+            </div>
+            <div class="icono">
+                <img src="./imagen/corazon.png" alt="corazon" class="icon">
+            </div>
+        </div>
+    </header> <!--Fin CABECERA-->
+
+    <div class="menu">
+        <div class="contenedor">
+            <nav class="navegacion">
+                <ul>
+                    <li class="menu-inicial">
+                        <a href="#">Video Games</a>                        
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="video_games/Xboxone.html">Xbox One</a>
+                            </li>
+                            <li>
+                                <a href="video_games/PS5.html">PS 5</a>
+                            </li>
+                            <li>
+                                <a href="video_games/Nintendo Switch.html">Nintendo Switch</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-inicial">
+                        <a href="#">Controladores</a>                        
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="controladores/Controlador_PS5.html">PlayStation</a>
+                            </li>
+                                <a href="controladores/Controlador_Nintendo.html">Nintendo</a></li>
+                            <li>
+                                <a href="controladores/Controlador_Xbox.html">Xbox</a>
+                            </li>
+                        </ul>                   
+                    </li>
+                    <li class="menu-inicial">
+                        <a href="#">PC Gaming</a>                        
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="pc_gaming/PCGaming_Asus.html">ASUS</a>
+                            </li>
+                            <li>
+                                <a href="pc_gaming/msi.html">MSI</a>
+                            </li>
+                            <li>
+                                <a href="pc_gaming/lenovo.html">Lenovo</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-inicial">
+                        <a href="#">Auriculares</a>                        
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="auriculares/HyperX.html">HyperX</a>
+                            </li>
+                            <li>
+                                <a href="auriculares/ASUS.html">ASUS</a>
+                            </li>
+                            <li>
+                                <a href="auriculares/SteelSerie.html">SteelSerie</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-inicial">
+                        <a href="#">Keyboards</a>                        
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="keyboard/logitech1.html">Logytech</a>
+                            </li>
+                            <li>
+                                <a href="keyboard/HPERX.html">HyperX</a>
+                            </li>
+                            <li>
+                                <a href="keyboard/Redragon.html">Redragon</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-inicial">
+                        <a href="#">Sobre Nosotros</a>                        
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="./sobre nosotros/quienes somos.html">Quienes Somos</a>
+                            </li>
+                            <li>
+                                <a href="./sobre nosotros/politica de garantia.html">Política de Garantía</a>
+                            </li>
+                            <li>
+                                <a href="./sobre nosotros/politicadeentrega.html">Política de Entrega</a>
+                            </li>
+                            <li>
+                                <a href="./sobre nosotros/politica de privacidad.html">Política de Privacidad</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-inicial">
+                        <a href="#">Soporte al Cliente</a>                        
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="./soporte al cliente/terminos y condiciones.html">Términos y Condiciones</a>
+                            </li>
+                            <li>
+                                <a href="./soporte al cliente/contactanos.html">Contáctenos</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div><!--Fin NAVEGACIÓN-->
+
+    <section>
+        <div class="hero" >
+            <div class="contenedor.-titulo" >
+            
+                <h1 class="titulo-inicio">La mejor tienda Online para los Gamers del Mundo</h1> 
+                <h1 id="hora" style="margin-left: 525px;color: red;position: absolute;"></h1>
+            </div>          
+       </div>        
+    </section><!--Fin BANNER-->
+
+    <section>
+        <div class="contenido contenedor">
+            <h2>Nuevos Productos</h2>
+            <div class="productos">
+                <div class="producto">
+                    <div class="imagen-producto">
+                        <img src="./imagen/inicio/dualsense.webp" class="img-pro" alt="dualsense">
+                    </div>
+                    <a href="controladores/PS5_MandoPS5.html">Controlador PS5</a>
+                </div>
+                <div class="producto">
+                    <div class="imagen-producto">
+                        <img src="./imagen/inicio/Nintendo-Switch.webp" class="img-pro" alt="Nintendo-Switch">
+                    </div>
+                    <a href="controladores/Nintendo_Consola.html">Consola Nintendo Switch</a>                    
+                </div>
+                <div class="producto">
+                    <div class="imagen-producto">
+                        <img src="./imagen/inicio/hyper3.jpg" class="img-pro" alt="oculus">
+                   </div>
+                    <a href="keyboard/hyperfps.html">Keyboard HYPER FPS PRO</a>                    
+                </div>
+                <div class="producto">
+                    <div class="imagen-producto">
+                        <img src="./imagen/inicio/Xbox-Elite.webp" class="img-pro" alt="Xbox-Elite">
+                    </div>
+                    <a href="controladores/Xbox_MandoElite2.html">Controlador Xbox Elite 2</a>
+                </div>
+                <div class="producto">
+                    <div class="imagen-producto">
+                        <img src="imagen/inicio/tel4.jpg" class="img-pro" alt="Xbox_Headset">
+                    </div>
+                    <a href="auriculares/SteelSerie4.html">Auriculares ARCTIS 5</a>
+                </div>
+            </div>
+        </div>
+    </section><!--Fin NUEVOS-->
+
+    <section>
+        <div class="contenido contenedor">
+            <div class="anuncios">
+                <div class="anuncio">
+                    <img src="./imagen/inicio/banner-Inicio-1.jpg" alt="banner_1">
+                    <div class="info-anuncio">
+                        <p>Últimas Unidades Disponible</p>
+                        <span>Separa tu pedido</span>
+                    </div>
+                </div>
+                <div class="anuncio">
+                    <img src="./imagen/inicio/banner-Inicio-2.jpg" alt="banner_2">
+                    <div class="info-anuncio">
+                        <p>Actualizaciones Disponible Ahora</p>
+                        <span>Pre-ordena desde ahora</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!--Fin ANUNCIOS-->
+
+<section>
+    <div id="carrusel" ></div>
+ <img style="width: 1250px;height: 500px;margin: 30px auto;" src="imagen/hero1.jpg" id="car" alt="car">
+</section>
+
+    <section>
+        <div class="contenido contenedor">
+            <h2>Top Marcas</h2>
+            <div class="marcas">
+                <div class="marca">
+                    <img src="./imagen/inicio/Funko-Logo.webp" alt="Funko-Logo">
+                </div>
+                <div class="marca">
+                    <img src="./imagen/inicio/Hasbro-Logo.webp" alt="Hasbro-Logo">
+                </div>
+                <div class="marca">
+                    <img src="./imagen/inicio/Logitech-Logo.webp" alt="Logitech-Logo">
+                </div>
+                <div class="marca">
+                    <img src="./imagen/inicio/Oculus-Logo.webp" alt="Oculus-Logo">
+                </div>
+                <div class="marca">
+                    <img src="./imagen/inicio/PlayStation_Logo.webp" alt="PlayStation-Logo">
+                </div>
+                <div class="marca">
+                    <img src="./imagen/inicio/Razer-Logo.webp" alt="Razer-Logo">
+                </div>
+                <div class="marca">
+                    <img src="./imagen/inicio/Xbox-Logo.webp" alt="Xbox-Logo">
+                </div>
+            </div>
+        </div>
+    </section><!--Fin MARCAS-->
+
+    <footer class="footer">
+        <div class="contenedor secciones-footer">
+            <div class="nosotros-footer">
+                <h3>Sobre Nosotros</h3>
+                <nav>
+                    <a href="./sobre nosotros/quienes somos.html">¿Quienes Somos?</a>
+                    <a href="./sobre nosotros/politica de garantia.html">Políticas de Garantía</a>
+                    <a href="./sobre nosotros/politicadeentrega.html">Políticas de Entrega</a>
+                    <a href="./sobre nosotros/politica de privacidad.html">Políticas de Privacidad</a>
+                </nav>
+            </div>
+            <div class="soporte-footer">
+                <h3>Soporte al Cliente</h3>
+                <nav>
+                    <a href="./soporte al cliente/terminos y condiciones.html">Términos y Condiciones</a>
+                    <a href="./soporte al cliente/contactanos.html">Contáctenos</a>
+                </nav>
+            </div>
+            <div class="conversa-footer">
+                <h3>Conversemos</h3>
+                <div class="iconos-conversa">
+                    <div class="icono-con">
+                        <a href="#">
+                            <img src="./imagen/celular.png" alt="celular">
+                        </a>
+                    </div>
+                    <div class="icono-con">
+                        <a href="#">
+                            <img src="./imagen/email.png" alt="email">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="redes-sociales">
+                <h3>Síguenos en</h3>
+                <div class="iconos-sociales">
+                    <div class="red-so">
+                        <a href="#">
+                            <img src="./imagen/facebook.png" alt="facebook">
+                        </a>
+                    </div>
+                    <div class="red-so">
+                        <a href="#">
+                            <img src="./imagen/youtube.png" alt="youtube">
+                        </a>
+                    </div>
+                    <div class="red-so">
+                        <a href="#">
+                            <img src="./imagen/twitter.png" alt="twitter">
+                        </a>
+                    </div>
+                    <div class="red-so">
+                        <a href="#">
+                            <img src="./imagen/instagram.png" alt="instagram">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Todos los Derechos Reservados &#169; CyberGame 2021</p>
+        </div>
+    </footer>    
+</body>
+</html>
